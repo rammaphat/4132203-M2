@@ -46,7 +46,7 @@ switch ($method) {
         }
         break;
 
-        //curl -X DELETE -d "id=1" http://localhost:8080/php/blog.php
+        //curl -X DELETE -d "id=1" http://localhost:8080/php/blog.php    //
 
     default:
         $response = ['status' => 'error', 'message' => 'Unsupported request method'];
